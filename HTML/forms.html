@@ -6,7 +6,7 @@
     <title>forms one</title>
     <style>
         body{
-            background-color: aquamarine;
+            background-color: rgb(87, 121, 195);
         }
     </style>
 </head>
@@ -14,12 +14,68 @@
     <h1>
         Forms in HTML
     </h1>
-    <form action="url" method="GET" accept-charset="utf-8" autocomplete="off" enctype="">
-    <label for="fname">First Name</label> <br>
-     <input type="text" name="" id="fname">
-     <label for="fname"><br>Last Name</label> <br>
-     <input type="text" name="" id="lname">
-     <button type="submit">Pay</button>
+    <!--form action="url" method="GET" accept-charset="utf-8" autocomplete="off" enctype=""-->
+    <div>
+     <label for="Username">Username</label> <br>
+     <input type="text" name="" id="Username"/>
+    </div>
+     <div>
+    <label for="Email">Enter Your Email</label> <br>
+     <input type="email" placeholder="enter your email" name="email" id="email"
+          required
+          autocomplete="off"
+          value="sachin@gmail.com"/>
+     </div>
+     <div>
+        <label for = "textarea">Message:</label>
+        <textarea name ="" id="text" cols="50" rows="3" placeholder="Enter any message"></textarea>
+    </div>
+     <div>
+        <label for = "number">Max subject:</label>
+        <input type="number" id="number" max="5" min="1"/>
+     </div>
+     <div>
+        <label for = "gender">Gender:</label >
+        <input type="radio" name="gender" value="Male"/> Male
+        <input type = "radio" name ="gender" value = "Female" /> Female
+     </div>
+     <div>
+        <label for = "hobbies">Fav hobbies:</label >
+        <input type="checkbox" name="interest" value="music "/> music
+        <input type = "checkbox" name ="interest" value = "sports" /> sports
+     </div>
+     <div>
+        <label for="Country">Fav Country:</label>
+        <select name = "Country" id="Country">
+            <option value = "usa">USA</option>
+            <option value = "India">INDIA</option>
+            <option value = "uk">Uk</option>
+     </div>
+     <div>
+        <label for="Country">Select a Country:</label>
+        <select type="text" id="Country" name = "Country" list="Countries">
+            <datalist id = "Countries">
+            <option value = "usa">USA</option>
+            <option value = "India">INDIA</option>
+            <option value = "uk">Uk</option>
+            </datalist>
+     </div>
+     <div>
+        <label for="file">Select File</label>
+        <input type = "file" name = "fileupload"/>
+     </div>
+     <div>
+        <label for = "birthdate">birthdate</label>
+        <input type = "date" name="birthdate"/>
+     </div>
+     <div>
+        <label for = "appointment">appointment</label>
+        <input type = "date" name = "appointment"/>
+     </div>
+
+         <input type="submit" value="submit" />
+         <!-- <button type="submit">Submit</button> -->
+
 
      </form>
 </body>
