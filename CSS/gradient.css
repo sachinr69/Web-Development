@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to left, red, yellow);
+    background-image: linear-gradient(to top, red, yellow); */
+    background-image: linear-gradient(to bottom left, red, yellow);
+}
