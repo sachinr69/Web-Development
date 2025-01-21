@@ -1,3 +1,84 @@
+h1{
+    color: rgb(15, 15, 15);
+    font-family: "Urbanist", sans-serif;
+    font-size: 69px;
+    font-weight: 800;
+    font-style: italic;
+    font-variant: normal;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style:solid;
+    text-shadow: -2px -2px 5px red;
+}
+.para{
+    color: rgb(13, 13, 14);
+}
+#btn{
+    background-color: rgb(229, 221, 225);
+    color: aliceblue;
+}
+#btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+/* h1:hover{
+   color: black;
+} */
+
 body{
-    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(249, 249, 248);
+    /* background-image: url('https://i.pinimg.com/236x/0a/7b/d3/0a7bd330dd5e52453c7e587b32c2689f.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    place-items: center;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+
+p{
+    font-family: "Urbanist", sans-serif;
+    font-size: 30px;
+    font-weight: 10;
+}
+
+a{
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;   
+}
+.section-border{
+    /* width: 1000px; */
+    color: aliceblue;
+    background-color: #5e9de9;
+    border: 12px solid #003180; 
+    padding: 10px 100px;
+}
+
+div{
+    width: 500px;
+    height: 200px;
+    background-color: #5e9de9;
+    border-radius: 50px;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+}
+
+.section-one{
+    width: 100px;
+    padding: 50px;
+    width: 1200px;
+    background-color: #5e9de9;
+    color : #fff;
+
+    margin-left: 200px;
+    margin:auto;
 }
