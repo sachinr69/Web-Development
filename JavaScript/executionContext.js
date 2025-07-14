@@ -1,5 +1,5 @@
 // const username = 'Sachin'
-// const useerAge = 20
+// const userAge = 20
 
 // function yo(){
 //     console.log('Hii');

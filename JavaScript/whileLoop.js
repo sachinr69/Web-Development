@@ -22,3 +22,15 @@ while(i < arr.length){
 // 3. vansh
 // 4. adarsh
 // 5. ojas
+
+// ====================For in loop ===================
+
+const object = {
+    js: "JavaScript",
+    cpp: "C++",
+    rb : "Ruby"
+}
+
+for(const key in object){
+    console.log(object[key]);
+}

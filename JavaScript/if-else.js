@@ -16,3 +16,16 @@ else if(userAge <= 0){
 else{
     console.log('Program Failed')
 }
+
+// falsy values
+// false , 0, -0, BigInt On, "", null, undefined, NaN
+
+//truly values
+//"0", 'false' , " " , [] , {} , function(){}
+
+//Ternary operator
+
+ // Syntax -== condition ? true : false 
+
+ const ice = 100
+ ice >=80 ? console.log('less than 80') : console.log('more than 80')

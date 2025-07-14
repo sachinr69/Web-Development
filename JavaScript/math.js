@@ -16,8 +16,11 @@ Math.round(2.45)
 2
 Math.random(1,25)
 0.40741276685029404
+
 Math.random()*20
+
 10.341727174400294
+
 Math.floor(Math.random()*10)
 8
  Math.floor(Math.random() * (20 - 10 + 1) + 10)

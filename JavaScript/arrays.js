@@ -1,3 +1,5 @@
+const { useCallback } = require("react")
+
 const username = 'Sachin kumar'
 
 const fruitsCollection = [
@@ -27,7 +29,7 @@ const animals = ['dog', 'cat', 'rat']
 
 //.concat ----> it helps to add array into another array.
 
-//.indexOf-----> it gives index of an array.
+//.indexOf-----> it returns first index of an array. Syntax = indexOf(searchElement, fromIndex)
 
 //.includes----> it helps to know that element is exist in array.
 
@@ -38,6 +40,8 @@ const animals = ['dog', 'cat', 'rat']
 //.slice------> it gives a part of elements by creating new array.
 
 //.splice-----> it delete and also add particular element from the  index.
+
+// person.at(-1) => person[arr.length-1]
 
 //     INTERVIEW QUES--> what is differnce b/w slice & splice.
 
@@ -52,3 +56,21 @@ const ticktacktoe = [
   ['O', ' ', 'X'],
 ]
 
+//  differnece forEach vs Map
+
+Array.forEach(funnction
+  callback(currentValue, indexedDB, array){
+    //logic
+  }, thisvalue);
+
+array.map((currentValue, index, array) => {
+  //logic
+}, thisValue);
+
+const num = [1,2,3,4,5];
+
+num.forEach((curElem)=> {
+  console.log(curElem * 2)
+})
+
+//is , from , of

@@ -87,9 +87,9 @@ grid-column-end */
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     /* grid starts here  */
     display: grid;
-    /* grid-template-rows: 250px 250px; */
-    grid-template-rows: repeat(2, 250px);
-    grid-auto-rows: 250px;
+    grid-template-rows: 250px 250px;
+    /* grid-template-rows: repeat(2, 250px); */
+    grid-template-columns: 1fr, 1fr, 1fr;
   
     /* grid-template-columns: 250px 250px 250px; */
     /* grid-template-columns: 250px 250px 1fr; */

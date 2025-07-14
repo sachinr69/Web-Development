@@ -1,0 +1,13 @@
+// Immediatelly Invoked Function Expression (IIFE)
+
+(function chai(){
+    //named iife
+    console.log(`DB connected`)
+})();
+
+// Global scope ke polutiion ko  hatane ke liye iska use kya jata hai
+
+((name) => {
+    //unamed iife
+    console.log(`DB connected ${name}`);
+})('SAchin')

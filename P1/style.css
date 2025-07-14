@@ -1,0 +1,80 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background-color: black;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+hr{
+    margin-bottom: 3.2rem;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+button{
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+}
+
+button {
+      background-color: yellow;
+      padding: 0.6rem 2.4rem;
+      border-radius: 15rem;
+      margin-right: 3.6rem;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all 0.3s linear;
+      
+
+      &:hover{
+        box-shadow: inset 0 0 0 0.2rem yellow;
+        background-color: transparent;
+        color: yellow;
+      }
+    }
+
+li{
+    cursor: pointer;
+    list-style-type: circle;
+    margin: 2rem 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    &:hover{
+       counter-reset: orange;
+    }
+}    
+
+.main_todo-div{
+    width: 36rem;
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    align-items: center;
+    height: auto;
+}
+
+li:hover + .deleteBtn{
+    box-shadow: inset 0 0 0 0.2rem yellow;
+    background-color: transparent;
+    color: yellow;
+}
+
