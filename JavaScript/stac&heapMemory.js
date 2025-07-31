@@ -10,7 +10,7 @@ console.log(name);
 console.log(anothername);
 
 let user1 = {
-    email: "xyz@gmail.com";
+    email: "xyz@gmail.com",
     upi: "xyz"
 }
 
@@ -18,4 +18,4 @@ let user2 = user1;
 
 user2.email = "yoyo@gmail.com";
 
-console.log()
+console.log(user1.email)

@@ -10,10 +10,10 @@ function hi(){
     console.log('Hello');
 }
 
-sayhi()
+// sayhi()
 
 
-//Function Expression
-var sayhi = function(){
-    console.log('Hii');
-}
+// //Function Expression
+// var sayhi = function(){
+//     console.log('Hii');
+// }

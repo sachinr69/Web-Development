@@ -5,15 +5,15 @@
 //     console.log('Hii');
 // }
 
-sayhi()
+// sayhi()
 
-var username = 'sachin'
-var userage = 20
+// var username = 'sachin'
+// var userage = 20
 
 function yo() {
     const a = 14
     const b = 11
-   addtwonumber(7, 9)
+   console.log(addtwonumber(7, 9))
 }
 
 function addtwonumber(x, y){
